@@ -1,0 +1,36 @@
+#main_header{
+    padding: 0 2rem;
+    height: 5rem;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index:999;
+    width: 100%;
+}
+.img_logo{
+    height:5rem;
+    float: left;
+}
+.appointment_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 14%;
+}
+.appointment_btn button{
+
+    background-color:var(--primary-color);
+    border-radius: 10px;
+    color: aliceblue;
+    box-shadow: inset -0.1px -0.1px 1px 1px white;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+
+
+

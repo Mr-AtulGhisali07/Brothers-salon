@@ -1,0 +1,119 @@
+#main_footer{
+    position: relative;
+    background-color: var(--primary-color);
+}
+.footer_img{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img_logo{
+    width: 11rem;
+}
+.grid_1{
+    display:flex ;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.grid_1 p{
+    color: aliceblue;
+    padding: 0 1rem;
+    text-align:center;
+}
+.nav_grid_2{
+    display: flex;
+    justify-content: center;
+}
+.navbar_list{
+    display: flex;
+    list-style-type:circle;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    font-size: 0.8rem;
+    color: rgba(254, 255, 255, 0.936);
+}
+.navbar_link{
+    color: rgba(254, 255, 255, 0.936);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navbar_link:visited{
+    display: inline-block;
+    font-size: 0.7rem;
+    transition: color 0.5 linear;
+    text-decoration: none;
+}
+.navbar_link:hover,:active{
+    color: rgb(154, 160, 164);
+    text-decoration: none;
+}
+.social_grid_3{
+   display: flex;
+   justify-content: center;
+   color: aliceblue;
+   padding-right: 1.3rem;
+}
+.icons{
+   display: flex;
+   gap: 2rem;
+   list-style-type: none;
+   justify-content: center;
+}
+#insta_icon:hover{
+    color: rgb(236, 94, 153);
+    transition: all ease-in-out 0.3s;
+
+}
+#twitter:hover{
+    color: rgba(0, 255, 255, 0.814);
+    transition: all ease-in-out 0.3s;
+    
+}
+.icon_color{
+    color: aliceblue;
+    font-size: 1.5rem;
+   transition: all ease-in-out 0.3s;
+
+}
+.grid_4{
+    display: flex;
+    justify-content: center;
+    padding-left: 0.8rem;
+}
+.grid_4 p{
+    color: aliceblue;
+    font-size: 0.9rem;
+    justify-content: center;
+}
+.footer_bottom{
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    color:rgb(9, 9, 9);
+    padding-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+@media (max-width:576px){
+    .grid_1 p{
+       font-size: 0.9rem;
+       font-weight:normal;
+       padding: 0px 1.5rem;
+    }
+    .navbar_list{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        font-size: 0.7rem;
+        row-gap: 1.8rem;
+    }
+    .footer_bottom {
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:391px){
+
+    #main_footer{
+        padding-top:0px;
+    }
+}

@@ -1,0 +1,69 @@
+.grant_parent{
+    box-sizing: border-box;
+    padding-top: 5rem;
+    width: 100vw;
+}
+.parent_grid{
+    margin-top: 2rem;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3,1fr);
+    justify-content:space-around;
+    gap:2.3rem;
+    padding-right: 1.5rem;
+}
+h2{
+    text-align: center;
+}
+.li{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.parent_grid img{
+    width: 100%;
+    filter:grayscale(1);
+    object-fit: cover;
+    transition: all ease-in 1s;
+}
+.parent_grid img:hover{
+    transition: all ease-in 1s;
+    scale: 1.1;
+    filter:grayscale(0)
+}
+.parent_grid span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color:rgb(88, 88, 88);
+    padding-block: 1rem;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: none;
+}
+.paraghraph{
+    padding-block:3rem;
+}
+i{
+    color: var(--button-color);
+}
+
+
+@media (max-width:768px){
+    .parent_grid span{
+    font-size: 1rem;
+    }
+}
+@media (max-width:576px){
+    .parent_grid span{
+        font-size: 1.3rem;
+        }
+    .parent_grid{
+        grid-template-columns: repeat(1,1fr);
+        gap:2rem;
+        }
+}

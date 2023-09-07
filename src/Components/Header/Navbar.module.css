@@ -1,0 +1,120 @@
+#main_navbar{
+box-sizing: border-box;
+}
+.navbar_list{
+    display: flex;
+    gap: 3.4rem;
+    list-style: none;
+    transition:  0.9s linear;
+
+}
+.navbar_list .navbar_link{
+    color: rgba(254, 255, 255, 0.936);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navbar_link:visited{
+    display: inline-block;
+    font-size: 1rem;
+    transition: color red  0.5 linear;
+}
+.navbar_link:hover{
+    color:var(--button-color);  
+    border-bottom: 1px solid var(--button-color);
+    transition: ease-in-out 0.2s;
+}
+
+
+#link_dropdown {
+    color: rgba(254, 255, 255, 0.936);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#link_dropdown:hover{
+    color:var(--button-color);
+    border-bottom: 1px solid var(--button-color);
+    transition: ease-in-out 0.2s;
+
+}
+
+#link_gents, #link_ladies{
+color: rgb(4, 4, 4);
+}
+.mobail_nav_btn{
+    display: none;
+    color: white;
+}
+#close_outline{
+    display: none;
+}
+.mobail_nav_btn[name="close-outline"]{
+    display: none;
+}
+
+
+@media screen and (max-width:867px)
+{
+#link_gents, #link_ladies{
+    display: flex;
+    justify-content: center;
+    color: rgb(4, 4, 4);
+    font-size: 0.8rem;
+}
+#link_dropdown {
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 2px;
+}
+#close_outline,.mobile_nav_icon{
+    font-size: 1.8rem;
+}
+.navbar_link{
+    font-size: 1rem;
+}
+.mobail_nav_btn{
+    display: inline-block;
+    z-index: 999;
+}
+.navbar_list{
+    width: 100vw;
+    height: 29rem;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: black;
+    flex-direction: column;
+    display: flex;
+    padding-left: 3rem;
+    justify-content: center;
+    align-items: start;
+    transform: translateX(100%);
+    transform: none;
+    visibility: hidden;
+    opacity: 0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:  2px 3px 6px 5px rgba(0, 0, 0, 0.603);
+}
+
+.active .mobile_nav_icon{
+    display: none;
+    font-size: 2rem;
+    position: absolute;
+    top:1.9rem;
+    right:2.3rem;
+    z-index: 999;
+}
+.active #close_outline{
+    display: inline-block;
+    color: aliceblue;
+
+}
+.active .navbar_list{
+    visibility:visible;
+    opacity:1;
+    transform: translateX(0);
+    z-index: 999;
+}
+} 

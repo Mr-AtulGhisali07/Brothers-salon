@@ -1,0 +1,11 @@
+.main_swiper{
+  padding-top:1rem;
+}
+.container{
+  margin-top: 4rem;
+  width: 100vw;
+}
+.img{
+  background-size: cover;
+  width: 100%;
+}

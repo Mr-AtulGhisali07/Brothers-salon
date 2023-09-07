@@ -1,0 +1,161 @@
+#main_appointment{
+    position: relative;
+    width: 100%;
+}
+#container_parent{
+    padding:4rem 7rem;
+    height: 100%;
+}
+#container{
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 11px;
+    padding-bottom: 1rem;
+}
+#container h3{
+    padding-top: 1.6rem;
+}
+#plas{
+    font-size: 1.5rem;
+}
+.form_container{
+    border-radius: 10px;
+    padding-top:1rem;
+    padding-inline: 4rem;
+}
+.form1 li,.form2 li{
+    padding-top: 0.9rem;
+    margin-block: 1rem;
+    list-style-type: none;
+    display: flex;
+}
+.form1,.form2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.icons{
+    font-size: 1.1rem;
+    margin-top: 0.7rem;
+    color:var(--button-color);
+}
+.form1 input,.form2 input,.form2 select{
+    
+    border: none;
+    background:transparent;
+    border-bottom: 2px solid black;
+    outline: none;
+    transition: 0.5s;
+    border-bottom-right-radius: 2px;
+    z-index: 10;
+}
+.form_date{
+    display: flex;
+}
+.form_container p{
+    padding-top: 0.5rem;
+}
+.btn {
+    width:11rem;
+}
+.or_span{
+    font-size: 1.1rem;
+    display: block;
+}
+#achor2 a ,span{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.call_us_span{
+    color: var(--button-color);
+}
+.form1 input::placeholder{
+    color:black;
+}
+.form2 input::placeholder{
+    color:black;
+}
+
+
+
+@media (max-width:1024px){
+    h2{
+        font-size:1.8rem;
+    }
+    #plas{
+        font-size: 1.4rem;
+    }
+    .form1 li,.form2 li{
+        padding-top: 0.9rem;
+    }
+    #container_parent{
+        padding-inline: 0px;
+    }
+    .form_container{
+        padding-inline: 2rem;
+    }  
+}
+@media (max-width:762px){
+    h3{
+        font-size:1.4rem;
+    }
+    #plas{
+        font-size: 1.3rem;
+    }
+    #achor2 a ,span{
+        font-size: 1.2rem;
+    }
+    .form1 li,.form2 li{
+        padding-top: 0.9rem;
+    }
+    .form_container{
+        padding-inline:0px ;
+    }
+    #container_parent{
+        padding-top: 3rem;
+    }
+}
+@media (max-width:576px){
+    #achor2 a ,span{
+        font-size: 1.3rem;
+    }
+    .or_span{
+        font-size: 1rem;
+        display: block;
+    }
+    .form1 li,.form2 li{
+        padding-top: 0.8rem;
+        margin-block: 0.6rem;
+    }
+    #container_parent{
+        padding-top: 1rem;}
+
+    .form1,.form2{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    h3{
+        font-size:1.2rem;
+    }
+    #plas{
+        font-size: 1.2rem;
+    }
+    #container_parent{
+        padding-inline: 0.6rem;
+    
+    }
+    .form_container{
+        padding-inline:3px ;
+    }
+}
+@media (max-width:391px){
+    #achor2 a ,span{
+        font-size: 1.1rem;
+    }
+    .form1,.form2{
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+    }
+    .form_container{
+        padding-inline:1px ;
+    }
+}

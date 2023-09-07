@@ -1,0 +1,83 @@
+#section{
+    padding-top: 6.5rem;
+    box-sizing: border-box;
+}
+.heading{
+    background-color: rgb(248, 246, 246);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    text-transform: uppercase;
+}
+.services_Img img{
+    box-sizing: border-box;
+    width: 100%;
+}
+.services_Img img{
+    padding-top:2rem;
+    box-sizing: border-box;
+}
+.ladies_gents_heading{
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+.ladies_gents_heading:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.heading:hover{
+    background-color:black ;
+}
+.service_heading{
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+#grant_parent img{
+    padding-left: 1rem;
+}
+.service_list{
+    list-style-type:circle;
+    list-style-position: inside;
+    font-size: 1.1rem;
+    list-style-image: url("/public/Images/circle.png");
+}
+.heading2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding-block:2rem;
+}
+.ladies_gents_heading2:hover{
+    color: rgb(203, 184, 184);
+    text-decoration: none;
+}
+#paraghaph{
+    padding-top: 2rem;
+    box-sizing: border-box;
+}
+
+@media (max-width:850px){
+    #paraghaph h2{
+        font-size: 1.2rem;
+    }
+    .heading{
+        position: absolute;
+        z-index:0;
+    }
+}
+@media (max-width:767px){
+    .service_list{
+        font-size: 1rem;
+    }
+    .service_heading{
+    font-size: 1.2rem;
+    }
+}
