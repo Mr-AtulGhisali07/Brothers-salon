@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Brother's Salon using react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A salon is a place that offers beauty treatments, such as hair styling & cutting , coloring, facials, and massages. Salons can offer a variety of services, including: Hair-cutting, coloring, and styling Waxing and other forms of hair removal Nail treatments Facials and skin care treatments Tanning Massages Complementary care such as aromatherapy for ladies and jents.
 
-## Available Scripts
+## How It Works
 
-In the project directory, you can run:
+Users:
+   browse categories of services;
+   view salons with their services;
+   book appointments using interactive datepicker;
+   can cancel appointments;
+ 
 
-### `npm start`
+Salon Manager:
+    confirms/declines users' appointments;
+    controls what services are available for booking in the salon.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots : Home Page
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Book Appointment
+📍Book your Appointment to easy way :
+    ● Enter your Name
+    ● Enter Contact
+    ● Enter Email
+    ● Enter City Name
+    ● Enter Gender
+    ● Enter Servise Type
+    ● Enter Date
+    ● Enter Time
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## About Page
+ 
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Collections Page
+Your hairstyle says a lot about your personality. It is the basic  essential way to make your appearance stand out from the crowd. However creating a style statement with your hairstyle is a task of its own.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Servises Pages 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Gents
+📍Servises:
+    ● Skin Care
+    ● Beard Grooming
+    ● Nail Care
+    ● Hair Cut & Finish
+    ● Hair Colour
+    ● Hair Texture
+    ● Hair Treatments
+  
+### Ladies
+📍Servises:
+    ● Hair Styling
+    ● Make Up
+    ● Hair Texture
+    ● Hair Treatments
+    ● Hair Colour
+    ● Facial & Rituals
+    ● Hand & Feet
+    ● Nail Care
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## contact Page
+ 
