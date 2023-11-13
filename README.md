@@ -50,7 +50,7 @@ Your hairstyle says a lot about your personality. It is the basic  essential way
 
 
 
-## Servises Pages 
+## Servises 
 
 ### Gents
 📍Servises:
@@ -62,10 +62,6 @@ Your hairstyle says a lot about your personality. It is the basic  essential way
     ● Hair Texture
     ● Hair Treatments
 
- ![Screenshot (40)](https://github.com/Mr-AtulGhisali07/Brothers-salon/assets/138815682/4cfa987f-8e9f-4e35-94db-583d2c680629)
-
-
-  ![Screenshot (41)](https://github.com/Mr-AtulGhisali07/Brothers-salon/assets/138815682/8abacc3c-ffa6-43cf-a67b-862ad125c092)
 
 ### Ladies
 📍Servises:
@@ -78,11 +74,9 @@ Your hairstyle says a lot about your personality. It is the basic  essential way
     ● Hand & Feet
     ● Nail Care
 
-![Screenshot (42)](https://github.com/Mr-AtulGhisali07/Brothers-salon/assets/138815682/8ce005e7-05f2-44a0-959c-d387d0b47202)
-
-![Screenshot (43)](https://github.com/Mr-AtulGhisali07/Brothers-salon/assets/138815682/a50d1d4b-b7d4-4e72-b8f3-8624946afa53)
 
 
+![Screenshot (46)](https://github.com/Mr-AtulGhisali07/Brothers-salon/assets/138815682/4ec578b4-0f60-4e2f-82da-f092183bea0c)
 
 ## contact Page
  
