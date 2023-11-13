@@ -21,6 +21,7 @@ Salon Manager:
 ![Screenshot (36)](https://github.com/Mr-AtulGhisali07/Brothers-salon/assets/138815682/d7abe4c5-8c14-4b61-8f92-bbeb6fad1ae8)
 
 
+
 ## Book Appointment
 📍Book your Appointment to easy way :
     ● Enter your Name
@@ -34,15 +35,19 @@ Salon Manager:
 
 ![Screenshot (37)](https://github.com/Mr-AtulGhisali07/Brothers-salon/assets/138815682/e7ce2195-6e53-4548-b48a-d2c9d6b5e22a)
 
+
+
 ## About Page
  
-![Screenshot (45)](https://github.com/Mr-AtulGhisali07/Brothers-salon/assets/138815682/0975f0fd-481f-4463-a487-91e6c308ef1a)
+![Screenshot (38)](https://github.com/Mr-AtulGhisali07/Brothers-salon/assets/138815682/6ff610ea-bec4-4667-a6ad-a28fd89a8c63)
+
 
 
 ## Collections Page
 Your hairstyle says a lot about your personality. It is the basic  essential way to make your appearance stand out from the crowd. However creating a style statement with your hairstyle is a task of its own.
 
 ![Screenshot (39)](https://github.com/Mr-AtulGhisali07/Brothers-salon/assets/138815682/ba4cba23-965a-4c8d-9cef-f2867b2b55db)
+
 
 
 ## Servises Pages 
@@ -76,6 +81,8 @@ Your hairstyle says a lot about your personality. It is the basic  essential way
 ![Screenshot (42)](https://github.com/Mr-AtulGhisali07/Brothers-salon/assets/138815682/8ce005e7-05f2-44a0-959c-d387d0b47202)
 
 ![Screenshot (43)](https://github.com/Mr-AtulGhisali07/Brothers-salon/assets/138815682/a50d1d4b-b7d4-4e72-b8f3-8624946afa53)
+
+
 
 ## contact Page
  
