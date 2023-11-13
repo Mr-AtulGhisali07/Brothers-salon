@@ -15,7 +15,7 @@ function HomeSlider() {
     <section className={clasess.main_swiper} id="home">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{"brothers salon"}</title>
+        <title>{"brothers salon | get osm look"}</title>
       </Helmet>
       <div className={clasess.container}>
         <Swiper
@@ -29,7 +29,7 @@ function HomeSlider() {
           }}
           Navigation={true}
           pagination={{ clickable: true }}
-          scrollbar={{ draggable: true }}
+          // scrollbar={{ draggable: true }}
         >
           <SwiperSlide>
             <SliderContent />

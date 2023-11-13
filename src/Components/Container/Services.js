@@ -5,6 +5,7 @@ import Aos from 'aos';
 import "aos/dist/aos.css"
 import { useEffect } from 'react';
 import { HashLink } from 'react-router-hash-link';
+import SocialPage from './SocialPage';
 
 const Services = () => {
   useEffect(()=>{

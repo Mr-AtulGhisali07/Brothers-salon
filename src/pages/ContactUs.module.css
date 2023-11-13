@@ -1,91 +1,104 @@
-#main_contact{
+#main_contact {
     padding: 6rem 0 2rem 0;
     background-color: rgba(203, 202, 202, 0.252);
 }
-#main_contact h2{
+
+#main_contact h2 {
     display: flex;
     justify-content: center;
     padding: 1.5rem;
 }
-#contact_us
-{
+
+#contact_us {
     display: flex;
     justify-content: space-evenly;
-    padding: 1rem 0rem ;
+    padding: 1rem 0rem;
     flex-wrap: wrap;
     background-color: rgba(246, 251, 251, 0.234);
 }
-.h3{
+
+.h3 {
     display: flex;
     color: rgb(20, 19, 19);
     justify-content: center;
     text-transform: uppercase;
     font-size: 1.6rem;
 }
-.list textarea,.list input{
+
+.list textarea,
+.list input {
     border: none;
-    background:transparent;
+    background: transparent;
     border-bottom: 2px solid black;
     outline: none;
     transition: 0.5s;
 }
-.list textarea::placeholder{
+
+.list textarea::placeholder {
     color: rgb(0, 0, 0);
 }
-.list input::placeholder{
+
+.list input::placeholder {
     color: rgb(0, 0, 0);
 }
-#contact_us li{
+
+#contact_us li {
     padding-top: 1.5rem;
     list-style-type: none;
 }
-.icons{
+
+.icons {
     font-size: 1.8rem;
 }
-.icons:hover{
+
+/* .icons:hover{
     color:var(--button-color);
-}
-.button{
+} */
+.button {
     display: flex;
     padding-top: 2rem;
     justify-content: center;
     align-items: center;
 }
-.map{
+
+.map {
     padding: 1rem;
 }
-#bottum_paragraph{
+
+#bottum_paragraph {
     padding: 2rem 1rem;
-    text-align:justify;
+    text-align: justify;
     background-color: rgba(203, 202, 202, 0.252);
     border-radius: 11px;
 }
 
-@media (max-width:991px){
-    .h3{
+@media (max-width:991px) {
+    .h3 {
         font-size: 1.4rem;
-        font-weight:normal;
+        font-weight: normal;
     }
 }
-@media (max-width:768px){
-    .h3{
+
+@media (max-width:768px) {
+    .h3 {
         font-size: 1.3rem;
     }
-    h2{
+
+    h2 {
         font-size: 1.6rem;
     }
-    .icons{
+
+    .icons {
         font-size: 1.6rem;
     }
 }
-@media (max-width:578px){
-    .h3{
+
+@media (max-width:578px) {
+    .h3 {
         font-size: 1.1rem;
     }
-    h2{
+
+    h2 {
         font-size: 1.4rem;
     }
 }
-
-
-

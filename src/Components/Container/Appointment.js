@@ -3,6 +3,7 @@ import {FaUser,FaPhone,FaMailBulk,FaCity,FaTransgender,FaCut,FaClock,FaCalendarA
 import Aos from 'aos';
 import "aos/dist/aos.css"
 import { useEffect } from 'react';
+import SocialPage from "./SocialPage";
 
 const Appointment = () => {
   useEffect(()=>{
@@ -56,6 +57,7 @@ const Appointment = () => {
           </form>	  
         </div>
       </div>
+      <SocialPage/>
     </section>
   );
 };
