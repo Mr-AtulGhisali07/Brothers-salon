@@ -4,6 +4,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet";
+import BrandPage from "../../Components/Container/BrandPage";
 
 const Collection = () => {
   useEffect(() => {
@@ -124,6 +125,7 @@ const Collection = () => {
             </p>
           </div>
         </div>
+        <BrandPage/>
       </section>
     </>
   );

@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
 import { Helmet } from "react-helmet";
+import BrandPage from "../Components/Container/BrandPage";
 
 const ServiceLadies = () => {
   useEffect(() => {
@@ -206,6 +207,7 @@ const ServiceLadies = () => {
             </p>
           </div>
         </div>
+        <BrandPage/>
       </section>
     </>
   );

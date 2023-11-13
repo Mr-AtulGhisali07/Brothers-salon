@@ -1,0 +1,43 @@
+.brand {
+    padding-block: 3.5rem;
+    text-align: center;
+}
+
+.brand_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    padding-block: 3rem;
+    position: relative;
+}
+
+.grid_brand_box {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.grid_brand_box img {
+    width: 50%;
+    object-fit: cover;
+    transition: all ease-in-out 1s;
+}
+
+.grid_brand_box img:hover {
+    scale: -1;
+    transition: all ease-in-out 1s;
+}
+
+@media (max-width:767px) {
+    .brand_grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding-block: 2.5rem;
+
+    }
+
+    .grid_brand_box img {
+        width: 30%;
+
+    }
+}

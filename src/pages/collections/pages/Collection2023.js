@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
 import { Helmet } from "react-helmet";
+import BrandPage from "../../../Components/Container/BrandPage";
 
 function Collection2023() {
   useEffect(() => {
@@ -70,6 +71,7 @@ function Collection2023() {
             </HashLink>
           </div>
         </div>
+        <BrandPage/>
       </section>
     </>
   );

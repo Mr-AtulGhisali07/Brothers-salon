@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Appointment from "../Components/Container/Appointment";
 import { Helmet } from "react-helmet";
+import BrandPage from "../Components/Container/BrandPage";
 
 const About = () => {
   useEffect(() => {
@@ -63,6 +64,7 @@ const About = () => {
           </div>
         </div>
         <Appointment />
+        <BrandPage/>
       </section>
     </>
   );

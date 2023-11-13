@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
 import { Helmet } from "react-helmet";
+import BrandPage from "../../../Components/Container/BrandPage";
 
 function AndpersandShoot() {
   useEffect(() => {
@@ -53,6 +54,7 @@ function AndpersandShoot() {
             </HashLink>
           </div>
         </div>
+        <BrandPage/>
       </section>
     </>
   );

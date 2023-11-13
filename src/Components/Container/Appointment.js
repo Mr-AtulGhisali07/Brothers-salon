@@ -57,7 +57,6 @@ const Appointment = () => {
           </form>	  
         </div>
       </div>
-      <SocialPage/>
     </section>
   );
 };

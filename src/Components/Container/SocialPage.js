@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaInstagram } from "react-icons/fa";
+import BrandPage from './BrandPage';
 
 
 const SocialPage = () => {
@@ -39,6 +40,7 @@ const SocialPage = () => {
 
        <p> Give us an opportunity to serve you once, we are sure you'll love to come back to us again and be our esteemed customer forever. Fill the form or call us to book an appointment now! </p>
         </div>
+        <BrandPage/>
     </div>
   )
 }

@@ -29,6 +29,7 @@ const Services = () => {
           </div>
         </div>
         <Appointment/>
+        <SocialPage/>
     </section>
   );
 };
