@@ -1,9 +1,11 @@
-#main_btn{
+#main_btn {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
-.top_btn{
+
+.top_btn {
     font-size: 2rem;
     width: 3rem;
     height: 3rem;
@@ -19,32 +21,39 @@
     align-items: center;
     cursor: pointer;
     box-shadow:
-     0 -0 5px  rgb(223, 219, 219),
-     0  0 5px  rgb(223, 219, 219),
-    -0  0 5px  rgb(223, 219, 219),
-    -0 -0 5px  rgb(223, 219, 219);
+        0 -0 4px rgb(223, 219, 219),
+        0 0 4px rgb(223, 219, 219),
+        -0 0 4px rgb(223, 219, 219),
+        -0 -0 4px rgb(223, 219, 219);
 }
-.icon:hover{
+
+.icon:hover {
     animation: gototop 1.2s linear infinite alternate-reverse;
 }
 
-@keyframes gototop{
-    0%{
+@keyframes gototop {
+    0% {
         transform: translateY(-0.4rem);
     }
-    100%{
+
+    100% {
         transform: translateY(0.9rem);
     }
 }
-@media (max-width:576px){
-    .top_btn{
+
+@media (max-width:576px) {
+    .top_btn {
         font-size: 1.8rem;
         width: 2.8rem;
         height: 2.8rem;
+
+        bottom: 3.5rem;
+        right: 1.9rem;
     }
 }
-@media (max-width:391px){
-    .top_btn{
+
+@media (max-width:391px) {
+    .top_btn {
         font-size: 1.6rem;
         width: 2.6rem;
         height: 2.6rem;
