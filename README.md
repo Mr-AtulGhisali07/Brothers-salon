@@ -18,6 +18,7 @@ Salon Manager:
 
 ## Screenshots : Home Page
 
+![Screenshot (36)](https://github.com/Mr-AtulGhisali07/Brothers-salon/assets/138815682/d7abe4c5-8c14-4b61-8f92-bbeb6fad1ae8)
 
 
 
@@ -32,18 +33,24 @@ Salon Manager:
     ● Enter Date
     ● Enter Time
 
+![Screenshot (37)](https://github.com/Mr-AtulGhisali07/Brothers-salon/assets/138815682/e7ce2195-6e53-4548-b48a-d2c9d6b5e22a)
+
+
 
 ## About Page
  
+![Screenshot (38)](https://github.com/Mr-AtulGhisali07/Brothers-salon/assets/138815682/6ff610ea-bec4-4667-a6ad-a28fd89a8c63)
 
 
 
 ## Collections Page
 Your hairstyle says a lot about your personality. It is the basic  essential way to make your appearance stand out from the crowd. However creating a style statement with your hairstyle is a task of its own.
 
+![Screenshot (39)](https://github.com/Mr-AtulGhisali07/Brothers-salon/assets/138815682/ba4cba23-965a-4c8d-9cef-f2867b2b55db)
 
 
-## Servises Pages 
+
+## Servises 
 
 ### Gents
 📍Servises:
@@ -54,7 +61,8 @@ Your hairstyle says a lot about your personality. It is the basic  essential way
     ● Hair Colour
     ● Hair Texture
     ● Hair Treatments
-  
+
+
 ### Ladies
 📍Servises:
     ● Hair Styling
@@ -67,5 +75,12 @@ Your hairstyle says a lot about your personality. It is the basic  essential way
     ● Nail Care
 
 
+
+![Screenshot (46)](https://github.com/Mr-AtulGhisali07/Brothers-salon/assets/138815682/4ec578b4-0f60-4e2f-82da-f092183bea0c)
+
 ## contact Page
  
+![Screenshot (45)](https://github.com/Mr-AtulGhisali07/Brothers-salon/assets/138815682/0836fcbe-be49-415b-85f3-82842fcd6b55)
+
+## Live App
+https://brothers-salon.netlify.app/
